@@ -14,26 +14,20 @@ async function seedDatabase() {
             {
                 name: 'John Employee',
                 email: 'john@company.com',
-                password: hashedPassword
-                // TODO: Add role: 'employee'
-
-
+                password: hashedPassword,
+                role: 'employee'
             },
             {
                 name: 'Sarah Manager',
                 email: 'sarah@company.com',
-                password: hashedPassword
-                // TODO: Add role: 'manager'
-
-
+                password: hashedPassword,
+                role: 'manager'
             },
             {
                 name: 'Mike Admin',
                 email: 'mike@company.com',
-                password: hashedPassword
-                // TODO: Add role: 'admin'
-
-                
+                password: hashedPassword,
+                role: 'admin'
             }
         ]);
 
